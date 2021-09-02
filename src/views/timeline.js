@@ -91,7 +91,7 @@ export const TIMELINE = () => {
             <button id='${idPost}' class='btnDelete'>&#10062;</button>
           </div>
           <div class='sectionAboutPost'>
-            <textarea name='${idPost}' disabled class='postContent'>${postInfo.post}</textarea>
+            <textarea name='${idPost}' disabled class='postContent' rows='1'>${postInfo.post}</textarea>
             <div>
               <button id='${idPost}' class='btnEdit'>&#9997;</button>
               <button id='${idPost}' class='btnSave'>&#9989;</button>
