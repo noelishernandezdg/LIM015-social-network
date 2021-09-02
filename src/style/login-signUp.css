@@ -769,7 +769,8 @@ figure{
 
     .profileContainer{
     width: 40%;
-    height: 30%;
+    height: 250px;
+    position: static;
     }
 
     .nameProfile{
