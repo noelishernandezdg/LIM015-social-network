@@ -83,9 +83,9 @@ ESTRUCTURA DEL CODIGO, GUIA DE ESTILO
 [x] Uso de linter (ESLINT).
 GIT / GITHUB  
 [x] Instalación y configuración  
-[x]Uso de comandos de git (add | commit | pull | status | push).  
+[x] Uso de comandos de git (add | commit | pull | status | push).  
 [x] Manejo de repositorios de GitHub (clone | fork | gh-pages | code review)  
-[x] Colaboración en Github (branches | pull requests | |tags)/(branch, checkout, fetch, merge, reset, rebase, tag)  
+[x] Colaboración en Github (branches | pull requests | tags)/(branch, checkout, fetch, merge, reset, rebase, tag)  
 [ ] Creación de cuenta y repos, configuración de llaves SSH  
 [x] Organización en Github (projects | issues | labels | milestones)
 
@@ -93,8 +93,8 @@ __FIREBASE:__
 
 [x] Firestore  
 [x] Firebase Auth  
-[] Firebase security rules  
-[] Observables  
+[ ] Firebase security rules  
+[x] Observables  
 
 ### Especificaciones
 
@@ -124,6 +124,9 @@ Luego de la pandemia, muchas personas desearan salir de sus hogares a un viaje y
 ### Otras especificaciones
 
 Este proyecto esta realizado desde el frontend con vanilla js y con ayuda de firebase poemos tener un backend amigable y en tiempo real
+
+__*Test de Usabilidad*__
+
 
 
 __*PROTOTIPO DEN FIGMA:*__  
