@@ -11,7 +11,7 @@ export const TIMELINE = () => {
   <section class='timeLineContainer'>
     <section class='profileContainer'>
       <figure>
-        <img id='imgUser' class='imgProfile' src="images/imgDefault3.png" alt="photoProfile" />
+        <img id='imgUser' class='imgProfile' src='images/imgDefault3.png' alt='photoProfile' />
       </figure>
       <p id='nameProfile' class='nameProfile'></p>
       <p id='status' class='status'>Estado: Viajer@ Empedernid@</p>
