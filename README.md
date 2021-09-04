@@ -11,7 +11,7 @@
 * [7. Imagenes](#imagenes-del-proyecto)
 * [8. Links relacionados](#links-relacionados)
 * [9. Autores](#autores)
-******
+***
 ## La Ruta
 
 Sabemos que la pandemia ha dejado estragos en todos y nos ha privado de una de las cosas que mas nos gusta hacer que es viajar, y que mejor que una red social para compartir experiencias ¿no? es aquí donde nace LA RUTA, para volvernos a conectar con nuestros paisajes compartiendo las mejores experiencias con otros usuarios y la clave es el ahorro.
@@ -126,11 +126,24 @@ Luego de la pandemia, muchas personas desearan salir de sus hogares a un viaje y
 Este proyecto esta realizado desde el frontend con vanilla js y con ayuda de firebase poemos tener un backend amigable y en tiempo real
 
 __*Test de Usabilidad*__
-| USUARIO | FECHA | COMENTARIO |
-|----------------|---------------|---------------|
-| USUARIO1 | 03/09/2021 | COMENTARIO |
-| USUARIO2 | 03/09/2021 | COMENTARIO |
-| USUARIO3 | 03/09/2021 | COMENTARIO |
+
+Realizamos las sgtes preguntas a algunos de nuestros usuarios:
+1. ¿Todas los botones fueron visibles y accesibles para ti ?
+2. ¿Cómo te sentiste al usar este sistema?
+3. Si tuvieras la oportunidad de ser parte de esta red social, ¿te registrarías?
+4. ¿Sentiste que la página era sobrecargada o demasiado minimalista?
+5. ¿Te fue sencillo usar la aplicación?
+6. ¿Qué te gustaría mejorar en la página y por qué?
+
+Las respuesta que tuvimos fueron:
+
+| USUARIO | FECHA | COMENTARIO | CHECK |
+|----------------|---------------|---------------|---------------|
+| USUARIO1 | 03/09/2021 | <ol><li>Si</li><li>Comodo</li><li>Si, claro</li><li>Termino medio</li><li>Si</li><li>No</li></ol> | [x] |
+| USUARIO2 | 03/09/2021 | <ol><li>Si</li><li>Bien</li><li>si</li><li>Equilibrio perfecto</li><li>Un poco</li><li>Nada</li></ol> | [x] |
+| USUARIO3 | 03/09/2021 | <ol><li>Si, pero un poco grandes.</li><li>chévere</li><li>Si, puede ser</li><li>minimalista</li><li>si</li><li>El color del footer</li></ol> | [ ] |
+| USUARIO4 | 03/09/2021 | <ol><li>Sí</li><li>Me parece que los colores son agradables y la usabilidad también</li><li>Sí, claro</li><li>Creo que está en equilibrio con lo que quiero ver y mostrar</li><li>Sí</li><li>Creo que debería haber más emoticones, le dan más vida</li></ol> | [ ] |
+| USUARIO5 | 03/09/2021 | <ol><li>Sí</li><li>Me parece practico, me gusto el color</li><li>Si</li><li>No me parece sobre cargada</li><li>Si</li><li>Deberían dar la opción para subir fotos</li></ol> | [ ] |
 
 __*PROTOTIPO DEN FIGMA:*__  
 
@@ -170,7 +183,7 @@ Estos son acuerdos, herramientas y archivos que usamos durate el proceso del pro
 
 ### Autores
 
-**_Trabajo colaborativo:_**
+**_Trabajo colaborativo:_** :muscle:
 
 _Este proyecto fue hecho posible gracias a:_
 * **Noelis Hernández** - [noelishernandezdg](https://github.com/noelishernandezdg)
