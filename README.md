@@ -139,11 +139,11 @@ Las respuesta que tuvimos fueron:
 
 | USUARIO | FECHA | COMENTARIO | CHECK |
 |----------------|---------------|---------------|---------------|
-| USUARIO1 | 03/09/2021 | <ol><li>Si</li><li>Comodo</li><li>Si, claro</li><li>Termino medio</li><li>Si</li><li>No</li></ol> | [x] |
-| USUARIO2 | 03/09/2021 | <ol><li>Si</li><li>Bien</li><li>si</li><li>Equilibrio perfecto</li><li>Un poco</li><li>Nada</li></ol> | [x] |
-| USUARIO3 | 03/09/2021 | <ol><li>Si, pero un poco grandes.</li><li>chévere</li><li>Si, puede ser</li><li>minimalista</li><li>si</li><li>El color del footer</li></ol> | [ ] |
-| USUARIO4 | 03/09/2021 | <ol><li>Sí</li><li>Me parece que los colores son agradables y la usabilidad también</li><li>Sí, claro</li><li>Creo que está en equilibrio con lo que quiero ver y mostrar</li><li>Sí</li><li>Creo que debería haber más emoticones, le dan más vida</li></ol> | [ ] |
-| USUARIO5 | 03/09/2021 | <ol><li>Sí</li><li>Me parece practico, me gusto el color</li><li>Si</li><li>No me parece sobre cargada</li><li>Si</li><li>Deberían dar la opción para subir fotos</li></ol> | [ ] |
+| USUARIO1 | 03/09/2021 | <ol><li>Si</li><li>Comodo</li><li>Si, claro</li><li>Termino medio</li><li>Si</li><li>No</li></ol> | - [x] |
+| USUARIO2 | 03/09/2021 | <ol><li>Si</li><li>Bien</li><li>si</li><li>Equilibrio perfecto</li><li>Un poco</li><li>Nada</li></ol> | - [x] |
+| USUARIO3 | 03/09/2021 | <ol><li>Si, pero un poco grandes.</li><li>chévere</li><li>Si, puede ser</li><li>minimalista</li><li>si</li><li>El color del footer</li></ol> | - [ ] |
+| USUARIO4 | 03/09/2021 | <ol><li>Sí</li><li>Me parece que los colores son agradables y la usabilidad también</li><li>Sí, claro</li><li>Creo que está en equilibrio con lo que quiero ver y mostrar</li><li>Sí</li><li>Creo que debería haber más emoticones, le dan más vida</li></ol> | - [ ] |
+| USUARIO5 | 03/09/2021 | <ol><li>Sí</li><li>Me parece practico, me gusto el color</li><li>Si</li><li>No me parece sobre cargada</li><li>Si</li><li>Deberían dar la opción para subir fotos</li></ol> | - [ ] |
 
 __*PROTOTIPO DEN FIGMA:*__  
 
