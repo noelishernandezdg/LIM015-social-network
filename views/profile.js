@@ -2,15 +2,19 @@ import { uploadImg } from '../firebase/firebase-storage.js';
 
 export const PROFILE = () => {
   const view = `
-  <section class='profileContent'>
-    <figure>
-      <img id='imgUser' class='imgProfile' src="../images/imgDefault3.png" alt="photoProfile" />
+  <section class='contentProfile'>
+  <section class='contentImg'>
+    <figure class='figImgUser'>
+      <img id='imgUser' class='imgUser' src="images/imgDefault3.png" alt="photoProfile" />
     </figure>
-    <input type='file' id='addImage' class='addImage' accept='image/png, image/jpeg' name='mas'>
+  </section>
+  <input type='file' id='addImage' class='addImage' accept='image/png, image/jpeg'>
+    <section class='content'>
     <button type='button' ></button>
+    </section>
     <section class='nameStatus'>
-    <p id='nameProfile' class='nameProfile'>Ariana</p>
-    <p id='status' class='statusProfile'>Estado: Viajer@ Empedernid@</p>
+      <p id='nameProfile' class='nameProfile'>Ariana</p>
+      <p id='status' class='statusProfile'>Estado: Viajer@ Empedernid@</p>
     </section>
     </section>
   <section class='aboutUser'>
@@ -34,7 +38,7 @@ export const PROFILE = () => {
   document.querySelector('.logOut a').style.display = 'block';
   // ------------------------- Foto de perfil -------------------------
   if (localStorage.getItem('userPhoto') === 'null') {
-    imgElement.src = '../images/imgDefault3.png';
+    imgElement.src = 'images/imgDefault3.png';
   } else {
     imgElement.src = localStorage.getItem('userPhoto');
   }
@@ -45,10 +49,11 @@ export const PROFILE = () => {
     userNameProfile.textContent = localStorage.getItem('userName');
   }
   // -------------------------  Cambiar foto de perfil -------------------------
-  btnUpload.addEventListener('change', (e) => {
+  btnUpload.addEventListener('change', async (e) => {
     e.preventDefault();
     const file = e.target.files[0];
     uploadImg(file);
+    e.target.style.display = 'none';
     // console.log(downloadImg());
     // console.log(downloadImg().fullPath);
   });
